@@ -1,0 +1,87 @@
+{
+  "navbar":{
+    "home": "Home",
+    "fireworks": "Fireworks",
+    "gender-reveal": "Gender reveal",
+    "wedding-sparklers": "Wedding sparklers",
+    "contact": "Contact"
+  },
+  "hero":{
+    "job":"WEB DEVELOPER",
+    "welcome":"Hello! Welcome to my portfolio. You will find all my professional information here.",
+    "button": "Resume"
+  },
+  "about":{
+    "section":"My journey",
+    "text":"I began my journey as a self-learner, immersed in the world of web development, where I acquired essential skills such as HTML, CSS, JavaScript, and React. My desire to grow and expand my knowledge led me to take a significant step in my career by joining Le Wagon, where I participated in a programming bootcamp. Here, my focus shifted towards the backend, and I immersed myself in the Ruby language and its powerful framework, Ruby on Rails. It was an enriching experience that allowed me to gain a deep understanding of the logic behind web applications and led me to develop my first full-stack project in a group with other peers, a culmination of my frontend and backend skills. My future vision is to integrate these two worlds of web development, leveraging the best of both to create innovative and comprehensive solutions. I am motivated by the idea of creating applications that are not only visually appealing but also robust in their architecture and functionality. At every step of this journey, I have embraced the challenge of learning and growing in the field of programming."
+  },
+  "skills":{
+    "section":"Skills",
+    "development":{
+      "title":"WEB DEVELOPMENT",
+      "html": "Html is a markup language for creating web pages. It defines a basic structure and a code (called HTML code) for the definition of the content of a web page, such as text, images, videos, games, among others.",
+      "css": "CSS is a graphic design language for defining and creating the presentation of a structured document written in a markup language. It is widely used to establish the visual design of web documents, and user interfaces written in HTML.",
+      "javascript": "JavScript is an interpreted programming language, a dialect of the ECMAScript standard. It is defined as object-oriented, prototype-based, imperative, weakly typed, and dynamic. It is primarily used on the client side, implemented as part of a web browser allowing for user interface enhancements and dynamic web pages.",
+      "ruby": "Ruby is an interpreted, reflective, and object-oriented programming language.",
+      "rails": "Ruby on Rails, also known as RoR or Rails, is an open-source web application framework written in the Ruby programming language, following the Model-View-Controller (MVC) pattern paradigm.",
+      "postgreSQL": "PostgreSQL, also known as Postgres, is an open-source object-relational database management system.",
+      "react": "React is an open source Javascript library designed to create user interfaces with the goal of making it easy to develop single-page applications.",
+      "vite": "Vite is a Frontend tool that allows you to create Javascript applications using a framework or library such as ReactJs, Vuejs, Angular, either with a specific framework or Vanillajs.",
+      "sass": "Sass is a CSS metalanguage. It is a script language that is translated into CSS, SassScript is the script language itself.",
+      "bootstrap": "Bootstrap is a cross-platform library for website and web application design. It contains HTML and CSS based layout elements as well as additional JavaScript extensions. Unlike many web frameworks, it only deals with front-end development.",
+      "vs-code": "Visual Studio Code is a source code editor.",
+      "git": "Git is version control software. Its purpose is to keep track of changes to computer files, including coordinating the work that several people do on shared files in a code repository.",
+      "github": "Github is a forge (collaborative development platform) for hosting projects using the Git version control system.",
+      "wordpress": "Wordpress is a content management system, focused on the creation of any type of web page."
+    },
+    "design":{
+      "title":"DESIGN",
+      "figma": "Figma is a vector graphics editor and prototyping tool, primarily web-based.",
+      "illustrator": "Adobe Illustrator is a vector graphics editor used to edit, among other things.",
+      "photoshop": "Adobe Photoshop is a photo editor used primarily for retouching photos and graphics."
+
+    }
+  },
+  "projects":{
+    "section": "Projects",
+    "card1":{
+      "title": "Ffarm Taid",
+      "techs": "HTML, CSS y React"
+    },
+    "card2":{
+      "title": "Media player",
+      "techs": "HTML, CSS and Javascript"
+    },
+    "card3":{
+      "title": "Calculator",
+      "techs": "HTML, CSS, Javascript and React"
+    },
+    "card4":{
+      "title": "Task notepad",
+      "techs": "HTML, CSS, Javascript and React"
+    },
+    "card5":{
+      "title": "Fixi",
+      "techs": "HTML, CSS y Ruby on Rails"
+    }
+  },
+  "contact":{
+    "section": "Contact",
+    "name": "NAME",
+    "e-mail":"E-MAIL",
+    "placeholder":"example@example.com",
+    "message": "MESSAGE",
+    "button": "Send",
+    "err-name":"Your name is too short",
+    "err-e-mail":"Your e-mail is invalid",
+    "err-message": "Your message is too short",
+    "modal":{
+      "thanks":"Thank you for your message!",
+      "button": "Continue"
+    }
+  },
+  "footer":{
+    "text": "Developed with love by Facundo Quiroga"
+  }
+
+}
