@@ -1,10 +1,11 @@
 {
   "navbar":{
     "home": "HOME",
-    "fireworks": "FIREWORKS",
+    "about": "ABOUT",
+    "brands": "BRANDS",
     "gender-reveal": "GENDER REVEAL",
     "wedding-sparklers": "WEDDING SPARKLERS",
-    "contact": "CONTACT"
+    "contact": "CONTACT & LOCATION"
   },
   "hero":{
     "job":"WEB DEVELOPER",

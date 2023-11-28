@@ -1,5 +1,7 @@
 import './Navbar.css'
 import Logo from '../Logo/Logo'
+import usFlag from '../../images/us-flag.svg'
+import mxFlag from '../../images/mx-flag.svg'
 import { useState } from 'react'
 import {useTranslation} from 'react-i18next'
 
@@ -30,13 +32,14 @@ const Navbar = ()=>{
         <nav className={`header-nav ${menu ? "active": ""}`}>
           <ul className="header-ul">
             <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.home")}</a></li>
-            <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.fireworks")}</a></li>
+            <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.about")}</a></li>
+            <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.brands")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.gender-reveal")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='https://www.dallassparklers.com/' target="_blanck" className='header-a'>{t("navbar.wedding-sparklers")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.contact")}</a></li>
             <ul className='flags'>
-              <li className="flag-li" onClick={()=>changeLng("es")}><img src="" alt="es" className='flag' /></li>
-              <li className="flag-li" onClick={()=>changeLng("en")}><img src="" alt="en" className='flag' /></li>
+              <li className="flag-li" onClick={()=>changeLng("en")}><img src={usFlag} alt="en" className='flag' /></li>
+              <li className="flag-li" onClick={()=>changeLng("es")}><img src={mxFlag} alt="es" className='flag' /></li>
             </ul>
           </ul>
         </nav>

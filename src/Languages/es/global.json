@@ -1,10 +1,11 @@
 {
   "navbar":{
     "home": "INICIO",
-    "fireworks": "FUEGOS ARTIFICIALES",
+    "about": "SOBRE NOSOTROS",
+    "brands": "MARCAS",
     "gender-reveal": "REVELACION DE GENERO",
     "wedding-sparklers": "ESTRELLAS DE BODA",
-    "contact": "CONTACTO"
+    "contact": "CONTACTO Y UBICACIÓN"
   },
   "hero":{
     "job":"DESARROLLADOR WEB",
