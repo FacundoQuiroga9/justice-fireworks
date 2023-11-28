@@ -1,10 +1,10 @@
 {
   "navbar":{
-    "home": "Inicio",
-    "fireworks": "Fuegos artificiales",
-    "gender-reveal": "Revelación de género",
-    "wedding-sparklers": "Estrellas de boda",
-    "contact": "Contacto"
+    "home": "INICIO",
+    "fireworks": "FUEGOS ARTIFICIALES",
+    "gender-reveal": "REVELACION DE GENERO",
+    "wedding-sparklers": "ESTRELLAS DE BODA",
+    "contact": "CONTACTO"
   },
   "hero":{
     "job":"DESARROLLADOR WEB",

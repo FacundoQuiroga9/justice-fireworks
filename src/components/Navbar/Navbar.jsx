@@ -19,18 +19,20 @@ const Navbar = ()=>{
   }
   return(
     <header className="header">
-      <Logo />
+      <div className='logo-button-container'>
+        <Logo />
         <button className='header-button' onClick={openMenu}>
           <span className={`top-line-${classSpan ? "clicked": "unclicked"}`}></span>
           <span className={`middle-line-${classSpan ? "clicked": "unclicked"}`}></span>
           <span className={`bottom-line-${classSpan ? "clicked": "unclicked"}`}></span>
         </button>
+      </div>
         <nav className={`header-nav ${menu ? "active": ""}`}>
           <ul className="header-ul">
             <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.home")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.fireworks")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.gender-reveal")}</a></li>
-            <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.wedding-sparklers")}</a></li>
+            <li className="header-li" onClick={openMenu}><a href='https://www.dallassparklers.com/' target="_blanck" className='header-a'>{t("navbar.wedding-sparklers")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.contact")}</a></li>
             <ul className='flags'>
               <li className="flag-li" onClick={()=>changeLng("es")}><img src="" alt="es" className='flag' /></li>

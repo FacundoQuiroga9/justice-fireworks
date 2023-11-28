@@ -1,3 +1,39 @@
-.logo-jf{
-  width: 8rem;
+.logo-link{
+  align-self: center;
+}
+
+#logo-completo{
+  width: 12rem;
+  align-self: center;
+}
+
+.st2{
+  fill: #e5232d;
+}
+
+.st1{
+  fill: #2b8cd3;
+}
+
+.dst1{
+  fill: #2b8cd3;
+}
+.dst2{
+  fill: #e5232d;
+}
+
+#logo-completo:hover #Caddo_Mills_x2C__Texas > .st1{
+  fill:#e5232d;
+}
+#logo-completo:hover #Fireworks > .st2{
+  fill: #2b8cd3;
+}
+#logo-completo:hover #Dynamite > .st1{
+  fill: #e5232d;
+}
+#logo-completo:hover #Destellos > .dst1{
+  scale: 0;
+}
+#logo-completo:hover #Destellos > .dst2{
+  scale: 0;
 }

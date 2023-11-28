@@ -8,12 +8,14 @@
     👉 Unificar la tipografía de todas las etiquetas de una web
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 /* Aquí definimos las Custom properties */
 :root{
   --negro         : #393939;
   --violeta         : rgb(158, 4, 212);
+  --red : #e5232d;
+  --celeste: #2b8cd3;
 
   /* Tipografía */
   --tipo-principal   : Helvetica, Arial, sans-serif;
@@ -51,7 +53,6 @@
   border: 0;
   box-sizing: border-box;
   vertical-align: baseline;
-  font-family: 'Montserrat', sans-serif;;
 }
 
 /* Evitamos problemas con las imagenes */
@@ -83,7 +84,7 @@ li {
 /* Configuramos anclas suaves */
 html {
   scroll-behavior: smooth;
-  background-color: #170C18;;
+  background-color: #ECEBEA;;
 }
 
 /* Desactivamos estilos por defecto de las principales etiquetas de texto */

@@ -1,16 +1,18 @@
 .header{
+  position: sticky;
+  z-index: 2;
+  box-shadow: 0 5px 15px rgb(41, 41, 41);
+}
+.logo-button-container{
   width: 100%;
-  background-color: #f2f2f2;
-  padding: 1rem;
+  background-color: #e1e5eb;
+  padding: 1rem 0;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
-  position: fixed;
   top: 0;
-  z-index: 2;
   user-select: none;
-  box-shadow: 0 5px 15px rgb(41, 41, 41);
 }
 
 .header-button{
@@ -19,33 +21,53 @@
 }
 
 .header-nav{
-  color: rgb(219, 52, 30);
+  background-color: #e5232d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bungee', sans-serif;
 }
 
 .header-ul{
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
+  margin: 0;
 }
 .header-li{
   margin: 0 .5rem;
   font-weight: bold;
   transition: all .5s;
+  position: relative;
 }
-.header-li:hover{
-  background-color: rgb(255, 209, 4);
-  border-radius: .3rem;
-}
+
 .header-li a{
   padding: .5rem 1.2rem;
+}
+.header-li:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+
+.header-li:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .flags{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-self: center;
 }
 .flag-li{
   margin: .4rem;
@@ -59,6 +81,10 @@
   width: 100%;
 }
 @media (max-width:780px){
+  .logo-button-container{
+    justify-content: space-between;
+    padding: 1rem 1rem;
+  }
   .header-button{
     display: flex;
     flex-direction: column;
@@ -68,7 +94,7 @@
   }
   .header-button span{
     border-radius: .5rem;
-    background-color: white;
+    background-color: var(--celeste);
     width: 3rem;
     height: .5rem;
     margin: .3rem 0;
