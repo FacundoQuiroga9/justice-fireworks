@@ -1,6 +1,31 @@
 .image-custom{
-  height: 600px;
+  height: 300px;
 }
 video{
-  height: 600px;
+  height: 300px;
+}
+@media (min-width: 420px){
+  .image-custom{
+    height: 400px;
+  }
+  video{
+    height: 400px;
+  }
+}
+@media (min-width: 750px){
+  .image-custom{
+    height: 500px;
+  }
+  video{
+    height: 500px;
+  }
+}
+@media (min-width: 1000px){
+  .image-custom{
+    height: 600px;
+  }
+  video{
+    height: 600px;
+  }
+
 }

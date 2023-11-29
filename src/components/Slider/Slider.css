@@ -11,8 +11,8 @@
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  border-top: dotted 1rem var(--red);
-  border-bottom: dotted 1rem var(--red);
+  border-top: solid .5rem var(--celeste);
+  border-bottom: solid .5rem var(--red);
 }
 
 .logos:before,
@@ -67,6 +67,11 @@
   }
 }
 @media (min-width: 750px){
+  .logos {
+    border-top: solid 1rem var(--celeste);
+    border-bottom: solid 1rem var(--red);
+  }
+
   .logos:before,
   .logos:after {
     width: 120px;

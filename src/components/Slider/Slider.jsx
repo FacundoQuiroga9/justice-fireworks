@@ -12,7 +12,7 @@ import Boom from '../../images/boom.png'
 const Slider = () => {
   return(
     <>
-      <div className="logos">
+      <div className="logos" id='brands'>
       <div className="logos-slide">
         <img src={Cutting} />
         <img src={BlackCat} />
