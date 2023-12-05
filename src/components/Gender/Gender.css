@@ -9,6 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  scroll-margin-top: 10rem;
 }
 .gender-title{
   color: var(--red);
@@ -37,7 +38,7 @@
     width: 50%;
   }
   .gender-info{
-    width: 50%;
+    width: 70%;
   }
   .gender-title{
     font-size: 2.5rem;
@@ -52,6 +53,7 @@
 @media (min-width: 1000px){
   #gender-reveal{
     justify-content: space-between;
+    width: 90%;
   }
 
   .foto-container{
@@ -59,8 +61,8 @@
   }
   .gender-title{
     width: 40%;
-    font-size: 7rem;
-    line-height: 8rem;
+    font-size: 6rem;
+    line-height: 7rem;
   }
   .gender-text{
     font-size: 2rem;

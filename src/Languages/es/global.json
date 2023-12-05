@@ -6,10 +6,10 @@
     "wedding-sparklers": "ESTRELLAS DE BODA",
     "contact": "CONTACTO Y UBICACIÓN"
   },
-  "hero":{
-    "job":"DESARROLLADOR WEB",
-    "welcome":"Hola! Bienvenido a mi portfolio. Aquí encontrarás toda mi información profesional.",
-    "button": "Descargar CV"
+  "gender":{
+    "title1":"REVELACIÓN",
+    "title2":"DE GÉNERO",
+    "text":"¡Haz que el anuncio del género de tu bebé sea tan brillante como su futuro!"
   },
   "about":{
     "section":"Mi camino",
@@ -81,7 +81,14 @@
     }
   },
   "footer":{
-    "text": "Desarrollado con amor por Facundo Quiroga"
+    "phone": "TELÉFONO",
+    "social-media": "REDES SOCIALES",
+    "terms-and-conditions":"TÉRMINOS Y CONDICIONES",
+    "read":"Lea",
+    "here": "aquí",
+    "adress": "DIRECCIÓN",
+    "place": "Ruta 3, km 1453. Trelew, Chubut. Patagonia argentina.",
+    "development":"Desarrollado por"
   }
 
 }

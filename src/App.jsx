@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Slider from './components/Slider/Slider'
 import Gender from './components/Gender/Gender'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Gender />
       <Slider />
+      <Footer />
     </>
   )
 }

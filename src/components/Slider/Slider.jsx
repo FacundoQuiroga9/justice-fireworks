@@ -8,6 +8,7 @@ import Monkey from '../../images/monkey.png'
 import Tsky from '../../images/tsky.png'
 import WCF from '../../images/wcf.png'
 import Boom from '../../images/boom.png'
+import dibujo from '../../images/Dibujo Dynamite building.png'
 
 const Slider = () => {
   return(
@@ -34,6 +35,7 @@ const Slider = () => {
         <img src={Boom} />
       </div>
     </div>
+    <img className='dibujo' src={dibujo} alt="" />
     </>
   )
 }

@@ -6,10 +6,10 @@
     "wedding-sparklers": "WEDDING SPARKLERS",
     "contact": "CONTACT & LOCATION"
   },
-  "hero":{
-    "job":"WEB DEVELOPER",
-    "welcome":"Hello! Welcome to my portfolio. You will find all my professional information here.",
-    "button": "Resume"
+  "gender":{
+    "title1":"GENDER",
+    "title2":"REVEAL",
+    "text":"Make the announcement of your baby's gender as bright as their future!"
   },
   "about":{
     "section":"My journey",
@@ -81,7 +81,14 @@
     }
   },
   "footer":{
-    "text": "Developed with love by Facundo Quiroga"
+    "phone": "PHONE",
+    "social-media": "SOCIAL MEDIA",
+    "terms-and-conditions":"TERMS AND CONDITIONS",
+    "read":"Read",
+    "here": "here",
+    "adress": "ADRESS",
+    "place": "Ruta 3, km 1453. Trelew, Chubut. Patagonia argentina.",
+    "development":"Developed by"
   }
 
 }
