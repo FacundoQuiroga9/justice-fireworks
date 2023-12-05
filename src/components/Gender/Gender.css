@@ -1,0 +1,70 @@
+#gender-reveal{
+  color: black;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-family: 'Bungee', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gender-title{
+  color: var(--red);
+  font-size: 2rem;
+  padding: 0;
+}
+.gender-title > span{
+  color: var(--celeste);
+}
+.gender-text{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-family: 'Passion One', sans-serif;
+}
+.fireworks-foto{
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 750px){
+  #gender-reveal{
+    flex-direction: row;
+  }
+  .foto-container{
+    margin: .5rem;
+    width: 50%;
+  }
+  .gender-info{
+    width: 50%;
+  }
+  .gender-title{
+    font-size: 2.5rem;
+    padding: .5rem;
+    padding: 0;
+  }
+  .gender-text{
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+}
+@media (min-width: 1000px){
+  #gender-reveal{
+    justify-content: space-between;
+  }
+
+  .foto-container{
+    width: 70%;
+  }
+  .gender-title{
+    width: 40%;
+    font-size: 7rem;
+    line-height: 8rem;
+  }
+  .gender-text{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+}

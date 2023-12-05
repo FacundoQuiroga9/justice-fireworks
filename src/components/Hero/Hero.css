@@ -1,9 +1,7 @@
 .image-custom{
   height: 300px;
 }
-video{
-  height: 300px;
-}
+
 @media (min-width: 420px){
   .image-custom{
     height: 400px;

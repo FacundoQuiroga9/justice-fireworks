@@ -13,6 +13,7 @@
   position: relative;
   border-top: solid .5rem var(--celeste);
   border-bottom: solid .5rem var(--red);
+  background-color: hsla(216, 20%, 90%, .8);
 }
 
 .logos:before,
