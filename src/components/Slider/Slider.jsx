@@ -13,7 +13,8 @@ import dibujo from '../../images/Dibujo Dynamite building.png'
 const Slider = () => {
   return(
     <>
-      <div className="logos" id='brands'>
+      <img id='brands' className='dibujo' src={dibujo} alt="" />
+      <div className="logos" >
       <div className="logos-slide">
         <img src={Cutting} />
         <img src={BlackCat} />
@@ -35,7 +36,6 @@ const Slider = () => {
         <img src={Boom} />
       </div>
     </div>
-    <img className='dibujo' src={dibujo} alt="" />
     </>
   )
 }

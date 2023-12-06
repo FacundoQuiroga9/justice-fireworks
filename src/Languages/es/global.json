@@ -87,7 +87,17 @@
     "read":"Lea",
     "here": "aquí",
     "adress": "DIRECCIÓN",
-    "place": "Ruta 3, km 1453. Trelew, Chubut. Patagonia argentina.",
+    "daily": "HORARIO REGULAR",
+    "dhours": "9am - 5pm",
+    "ddays": "Sunday - Saturday (Solo artículos legales)",
+    "peak":"HORARIO DE TEMPORADA ALTA CON SELECCIÓN COMPLETA:",
+    "phours":"9am - 11:30pm ",
+    "pdays1":"25 de Febrero – 2 de Marzo",
+    "pdays2":"16 de Abril – 21 de Abril",
+    "pdays3":"24 de Mayo – 29 de Mayo",
+    "pdays4":"24 de Junio – 4 de Julio",
+    "pdays5":"7 de Noviembre - 12 de Noviembre",
+    "pdays6":"20 de Diciembre  – 1 de Enero",
     "development":"Desarrollado por"
   }
 

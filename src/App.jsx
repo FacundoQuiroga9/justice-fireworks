@@ -10,8 +10,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Gender />
       <Slider />
+      <Gender />
       <Footer />
     </>
   )
