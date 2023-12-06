@@ -12,8 +12,8 @@ const Footer = ()=>{
       <h4 className='footer-title'>{t("footer.adress")}</h4>
         <p className='direccion footer-text'><i className="fa-solid fa-location-dot"></i> 5159 Interstate 30W, Caddo Mills TX 75135</p>
         <h4 className='footer-title'>{t("footer.phone")}</h4>
-        <p className="telefono footer-text">(972) 977-5193</p>
-        <h4 className='footer-title'>{t("footer.social-media")}</h4>
+        <p className="telefono footer-text"><i className="fa-solid fa-phone"></i> (972) 977-5193</p>
+        <h4 className='footer-title'><i className="fa-solid fa-laptop"></i> {t("footer.social-media")}</h4>
         <div className='social-media-container'>
           <a className='media-link' href="https://www.facebook.com/profile.php?id=61550935544961" target="_blanck">
             <i className="fa-brands fa-square-facebook"></i>
@@ -27,11 +27,11 @@ const Footer = ()=>{
       </div>
       <div className="footer1">
 
-        <h4 className='footer-title'>{t("footer.daily")}</h4>
-        <p className='footer-text'>{t("footer.dhours")}</p>
+        <h4 className='footer-title'><i className="fa-regular fa-calendar-days"></i> {t("footer.daily")}</h4>
+        <p className='footer-text'><i className="fa-solid fa-clock"></i> {t("footer.dhours")}</p>
         <p className='footer-text'>{t("footer.ddays")}</p>
-        <h4 className='footer-title'>{t("footer.peak")}</h4>
-        <p className='footer-text'>{t("footer.phours")}</p>
+        <h4 className='footer-title'><i className="fa-regular fa-calendar-days"></i> {t("footer.peak")}</h4>
+        <p className='footer-text'><i className="fa-solid fa-clock"></i> {t("footer.phours")}</p>
         <p className='footer-text'>{t("footer.pdays1")}</p>
         <p className='footer-text'>{t("footer.pdays2")}</p>
         <p className='footer-text'>{t("footer.pdays3")}</p>

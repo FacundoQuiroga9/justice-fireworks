@@ -103,7 +103,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /* Configuramos el texto que seleccionamos */
 ::selection {
-  background-color: var(--negro);
+  background-color: var(--red);
   color: var(--blanco);
 }
 
@@ -147,4 +147,5 @@ body {
   /* opcional */ -webkit-font-smoothing: antialiased;
   /* opcional */ -moz-osx-font-smoothing: grayscale;
   background-color: var(--white);
+  user-select: none;
 }
