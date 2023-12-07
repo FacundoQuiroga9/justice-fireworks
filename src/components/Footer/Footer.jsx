@@ -1,6 +1,9 @@
 import './Footer.css'
 import {useTranslation} from 'react-i18next'
 import logo from '../../images/logo-footer.png'
+import visa from '../../images/visa.png'
+import mastercard from '../../images/mastercard.png'
+import amex from '../../images/amex.png'
 
 
 const Footer = ()=>{
@@ -42,9 +45,16 @@ const Footer = ()=>{
       </div>
       <div className="footer3">
       <h4 className='footer-title'>{t("footer.terms-and-conditions")}</h4>
-          <p className='terminos footer-text'>{t("footer.read")} <a className='aqui' href='/Terminos.pdf' target="_blanck">{t("footer.here")}</a></p>
+        <p className='terminos footer-text'>{t("footer.read")} <a className='aqui' href='/Terminos.pdf' target="_blanck">{t("footer.here")}</a></p>
+      <h4 className='footer-title'><i class="fa-solid fa-credit-card"></i> {t("footer.payments")}</h4>
+      <div className='credit-cards-container'>
+        <img src={visa} className='credit-card' alt="" />
+        <img src={amex} className='credit-card' alt="" />
+        <img src={mastercard} className='credit-card' alt="" />
+      </div>
         <img src={logo} alt="" className='logo-footer'/>
         <p className="desarrollo footer-text">{t("footer.development")} <a href="https://quirogafacundo.com" target='_blanck'><span className='fq'>FQ</span></a></p>
+
 
       </div>
     </footer>

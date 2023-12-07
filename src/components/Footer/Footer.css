@@ -55,8 +55,22 @@
   color: var(--red);
 }
 .logo-footer{
-  margin-bottom: 1rem;
+  margin: 1rem auto;
 }
+
+.credit-cards-container{
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.credit-card{
+  width: auto;
+  height: 2rem;
+  margin: 0 1rem 1rem;
+}
+
 @media (min-width: 420px){
   .footer-text{
     font-size: 1rem;
@@ -65,8 +79,7 @@
 @media screen and (min-width: 750px){
  .logo-footer{
   width: 50%;
-  margin: 0 auto;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
  }
  .footer-text{
   font-size: 1.2rem;

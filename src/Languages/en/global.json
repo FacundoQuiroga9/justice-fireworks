@@ -11,10 +11,20 @@
     "title2":"REVEAL",
     "text":"Make the announcement of your baby's gender as bright as their future!"
   },
+  "location": {
+    "title1":"LOCATION &",
+    "title2":"CONTACT",
+    "address": "ADDRESS",
+    "view": "VIEW MAP",
+    "phone": "PHONE",
+    "call": "CALL",
+    "social-media": "SOCIAL MEDIA"
+  },
   "footer":{
     "phone": "PHONE",
     "social-media": "SOCIAL MEDIA",
     "terms-and-conditions":"TERMS AND CONDITIONS",
+    "payments":"PAYMENT METHODS",
     "read":"Read",
     "here": "here",
     "adress": "ADDRESS",

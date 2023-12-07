@@ -35,7 +35,7 @@ const Navbar = ()=>{
             <li className="header-li" onClick={openMenu}><a href='#brands' className='header-a'>{t("navbar.brands")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='#gender-reveal' className='header-a'>{t("navbar.gender-reveal")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='https://www.dallassparklers.com/' target="_blanck" className='header-a'>{t("navbar.wedding-sparklers")}</a></li>
-            <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.contact")}</a></li>
+            <li className="header-li" onClick={openMenu}><a href='#map' className='header-a'>{t("navbar.contact")}</a></li>
             <ul className='flags'>
               <li className="flag-li" onClick={()=>changeLng("en")}><img src={usFlag} alt="en" className='flag' /></li>
               <li className="flag-li" onClick={()=>changeLng("es")}><img src={mxFlag} alt="es" className='flag' /></li>

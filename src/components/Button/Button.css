@@ -1,0 +1,21 @@
+.button-container{
+  background-color: var(--celeste);
+  color: var(--white);
+  padding: .5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Bungee', sans-serif;
+  margin: 0 0 1rem;
+  font-size: .8rem;
+  width: 100%;
+}
+
+.button-container:hover{
+  background-color: var(--red);
+}
+
+@media (min-width: 1000px){
+  .button-container{
+    width: 10rem;
+  }
+}
