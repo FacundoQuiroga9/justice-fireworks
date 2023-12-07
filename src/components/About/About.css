@@ -1,7 +1,7 @@
 .about-container{
   width: 80%;
   margin: 2rem auto;
-  
+
 }
 #about{
   scroll-margin-top: 10rem;
@@ -22,7 +22,9 @@
   object-fit:cover;
   background-size:cover;
   background-repeat:no-repeat;
-  height: 25rem;
+  height: 20rem;
+  width: 80%;
+  margin: 0 auto;
   border-radius: 1rem;
   display: flex;
   justify-content: center;
@@ -31,11 +33,12 @@
   font-family: 'Bungee', sans-serif;
   font-size: 2rem;
   line-height: 2.5rem;
+  padding: 0;
 }
 .frase{
   text-align: center;
-  font-size: 2rem;
-  line-height: 2.7rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   display: none;
   border-radius: 1rem;
 }
@@ -63,7 +66,6 @@
   .about-text{
     font-size: .7rem;
     line-height: .9rem;
-    font-family: 'Passion One', sans-serif;
   }
   .steve-container{
     width: 40%;
@@ -76,6 +78,9 @@
   }
 }
 @media (min-width: 1000px){
+  .steve-container{
+    margin: 0;
+  }
   .about-info{
     width: 50%;
   }
@@ -90,7 +95,7 @@
 
   .steve-container{
     width: 40%;
-    height: 40rem;
+    height: 35rem;
     margin-left: 2rem;
   }
   .frase{

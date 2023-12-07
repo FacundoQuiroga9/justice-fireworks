@@ -8,9 +8,9 @@ const About = () =>{
       <div className="about-info">
         <h3 className='about-title'>Dynamite Fireworks</h3>
         <p className='about-text'>
-          ¡Bienvenidos a Dynamite Fireworks! Con una selección espectacular de más de 2,000 tipos de fuegos artificiales, ofrecemos una experiencia única que transforma cualquier ocasión en un evento inolvidable.<br></br><br></br>
+          ¡Bienvenidos a Dynamite Fireworks! Con una selección espectacular de más de 2,000 tipos de fuegos artificiales, ofrecemos la mejor experiencia para transformar cualquier ocasión en un evento inolvidable.<br></br><br></br>
 
-          Nuestro propietario, Steve, lidera este apasionante viaje con más de 20 años de experiencia en la industria. Su dedicación y conocimiento han convertido a Dynamite Fireworks en el referente indiscutible para aquellos que buscan llevar la celebración al siguiente nivel.<br></br><br></br>
+          Nuestro propietario, Steve, es el capitán del barco con más de 20 años de experiencia en la industria. Su dedicación y conocimiento han convertido a Dynamite Fireworks en el referente indiscutible para aquellos que buscan llevar la celebración al siguiente nivel.<br></br><br></br>
 
           En Dynamite Fireworks, nuestro equipo está orgulloso de ofrecer un servicio excepcional a nuestros clientes. Estamos comprometidos en ayudarte a encontrar la combinación perfecta de colores, formas y efectos para hacer de tu evento algo verdaderamente extraordinario.<br></br><br></br>
         </p>
