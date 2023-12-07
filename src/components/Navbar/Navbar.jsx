@@ -31,7 +31,7 @@ const Navbar = ()=>{
       </div>
         <nav className={`header-nav ${menu ? "active": ""}`}>
           <ul className="header-ul">
-            <li className="header-li" onClick={openMenu}><a href='#' className='header-a'>{t("navbar.about")}</a></li>
+            <li className="header-li" onClick={openMenu}><a href='#about' className='header-a'>{t("navbar.about")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='#brands' className='header-a'>{t("navbar.brands")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='#gender-reveal' className='header-a'>{t("navbar.gender-reveal")}</a></li>
             <li className="header-li" onClick={openMenu}><a href='https://www.dallassparklers.com/' target="_blanck" className='header-a'>{t("navbar.wedding-sparklers")}</a></li>

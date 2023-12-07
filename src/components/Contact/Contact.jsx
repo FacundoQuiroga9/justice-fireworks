@@ -1,5 +1,5 @@
 import './Contact.css'
-import { MapContainer, TileLayer, useMap, Marker } from 'react-leaflet'
+import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import {useTranslation} from 'react-i18next'
 import Button from '../Button/Button'
@@ -11,7 +11,9 @@ const Contact = ()=>{
     <div id='map' className="map">
       <MapContainer center={{lat: '33.00017049068368', lng: '-96.2360017157822'}} zoom='15'>
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
-        <Marker position={{lat: '33.00017049068368', lng: '-96.2360017157822'}} />
+        <Marker position={{lat: '33.00017049068368', lng: '-96.2360017157822'}}>
+          <Popup>Dynamite Fireworks</Popup>
+        </Marker>
       </MapContainer>
       <div className='contact-info'>
         <h3 className='contact-title'><span>{t("location.title1")}</span> {t("location.title2")}</h3>

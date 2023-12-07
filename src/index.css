@@ -148,4 +148,5 @@ body {
   /* opcional */ -moz-osx-font-smoothing: grayscale;
   background-color: var(--white);
   user-select: none;
+  hyphens: none;
 }
