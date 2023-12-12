@@ -6,6 +6,13 @@
     "wedding-sparklers": "ESTRELLAS DE BODA",
     "contact": "CONTACTO Y UBICACIÓN"
   },
+  "about":{
+    "title1":"DYNAMITE",
+    "title2":"FIREWORKS",
+    "text1": "¡Bienvenidos a Dynamite Fireworks! Con una selección espectacular de más de 2,000 tipos de fuegos artificiales, ofrecemos la mejor experiencia para transformar cualquier ocasión en un evento inolvidable.",
+    "text2": "Nuestro propietario, Steve, es el capitán del barco con más de 20 años de experiencia en la industria. Su dedicación y conocimiento han convertido a Dynamite Fireworks en el referente indiscutible para aquellos que buscan llevar la celebración al siguiente nivel.",
+    "text3": "En Dynamite Fireworks, nuestro equipo está orgulloso de ofrecer un servicio excepcional a nuestros clientes. Estamos comprometidos en ayudarte a encontrar la combinación perfecta de colores, formas y efectos para hacer de tu evento algo verdaderamente extraordinario."
+  },
   "gender":{
     "title1":"REVELACIÓN",
     "title2":"DE GÉNERO",

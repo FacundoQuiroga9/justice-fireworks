@@ -9,8 +9,13 @@
 .about-title{
   font-size: 2rem;
   font-family: 'Bungee', sans-serif;
+  color: var(--celeste);
+}
+
+.about-title > span{
   color: var(--red);
 }
+
 .about-text{
   font-size: .5rem;
   line-height: .7rem;
@@ -34,6 +39,7 @@
   font-size: 2rem;
   line-height: 2.5rem;
   padding: 0;
+  transition: all .5s;
 }
 .frase{
   text-align: center;
@@ -48,6 +54,7 @@
 }
 .steve-container:hover{
   background-image: none;
+
 }
 
 
