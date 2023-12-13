@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const Hero = ()=> {
   return (
-    <motion.img src={Image1} className="box image-custom" alt="..."
+    <motion.img loading='lazy' src={Image1} className="box image-custom" alt="..."
     initial= {{ opacity:0}}
     animate={{ opacity:1}}
     transition={{duration:2}}
