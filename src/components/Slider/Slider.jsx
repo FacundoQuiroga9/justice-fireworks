@@ -32,14 +32,14 @@ const Slider = () => {
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}
       variants={brandsBuildingAnimation}
-      transition={{duration:2, delay: .5}}/>
+      transition={{duration:1, delay: .5}}/>
 
-      <motion.div className="logos"
+      <motion.div className="box logos"
       ref={ref}
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}
       variants={brandsSliderAnimation}
-      transition={{duration:2, delay: 1}}
+      transition={{duration:1.5, delay: 1}}
       >
       <div className="logos-slider">
         <img src={Cutting} />

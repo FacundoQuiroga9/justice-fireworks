@@ -8,6 +8,7 @@
 }
 #brands{
   scroll-margin-top: 10rem;
+  overflow-x: hidden;
 }
 .logos {
   overflow: hidden;
@@ -38,7 +39,7 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--white));
 }
 
-.logos:hover .logos-slide {
+.logos:hover .logos-slider {
   animation-play-state: paused;
 }
 
@@ -56,6 +57,7 @@
 }
 .dibujo{
   padding: 2rem 3rem;
+  overflow-x: hidden;
 }
 
 @media (min-width: 420px){
@@ -109,6 +111,6 @@
     margin: 0 3rem;
   }
   .dibujo{
-    padding: 4rem 18rem;
+    padding: 3.5rem 16rem;
   }
 }

@@ -1,0 +1,36 @@
+
+.carrousel-container{
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.carrousel-image{
+  height: 100%;
+  opacity: 0;
+  transition: 1s;
+  user-select: none;
+}
+.loaded{
+  opacity: 1;
+}
+@media (min-width: 420px){
+  .carrousel-container{
+    height: 20rem;
+  }
+}
+@media (min-width: 750px){
+  .carrousel-container{
+    height: 25rem;
+  }
+}
+@media (min-width: 1000px){
+  .carrousel-container{
+  }
+
+
+}

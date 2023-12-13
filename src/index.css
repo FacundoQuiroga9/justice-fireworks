@@ -138,6 +138,8 @@ svg{
 /* Configuramos la tipografía para toda la web */
 body {
   min-height  : 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
   font-size   : 100%;
   font-family : var(--tipo-principal);
   color       : var(--negro);

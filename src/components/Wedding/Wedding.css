@@ -1,0 +1,43 @@
+#wedding{
+  scroll-margin-top: 10rem;
+}
+.wedding-section{
+  width: 80%;
+  margin: 1rem auto;
+  overflow: hidden;
+}
+.wedding-title{
+  margin: 1rem 0;
+  color: var(--red);
+  font-size: 2rem;
+  padding: 0;
+  font-family: 'Bungee', sans-serif;
+}
+.wedding-text{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-family: 'Passion One', sans-serif;
+}
+@media (min-width: 420px){
+
+}
+@media (min-width: 750px){
+  .wedding-section{
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    overflow: hidden;
+  }
+
+.wedding-info{
+  width: 80%;
+}
+}
+@media (min-width: 1000px){
+  .wedding-section{
+    width: 90%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+}

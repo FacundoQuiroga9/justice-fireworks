@@ -6,6 +6,7 @@
   border-radius: 1rem;
 }
 
+
 #map{
   scroll-margin-top: 10rem;
 }
@@ -13,6 +14,11 @@
   height: 45rem;
   display: flex;
   flex-direction: column;
+}
+
+.map-container{
+
+  width:40%
 }
 .contact-info{
   width: 80%;
