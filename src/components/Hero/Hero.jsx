@@ -1,9 +1,16 @@
 import './Hero.css'
 import Image1 from '../../images/Dynamite.jpeg';
+import { motion } from "framer-motion"
 
 const Hero = ()=> {
   return (
-    <img src={Image1} className="image-custom" alt="..." />
+    <motion.img src={Image1} className="box image-custom" alt="..."
+    initial= {{ opacity:0}}
+    animate={{ opacity:1}}
+    transition={{duration:2}}
+
+    />
+
   );
 }
 
