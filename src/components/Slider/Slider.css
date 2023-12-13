@@ -42,14 +42,14 @@
   animation-play-state: paused;
 }
 
-.logos-slide {
+.logos-slider {
   margin: 1rem 0;
   animation: 35s slide infinite linear;
   display: flex;
   flex-direction: row;
 }
 
-.logos-slide img {
+.logos-slider img {
   width: 4rem;
   margin: 0 1rem;
   object-fit: contain;
@@ -64,10 +64,10 @@
     width: 80px;
   }
 
-  .logos-slide {
+  .logos-slider {
     margin: 2rem 0;
   }
-  .logos-slide img {
+  .logos-slider img {
     width: 6rem;
     margin: 0 1.5rem;
   }
@@ -83,10 +83,10 @@
   .logos:after {
     width: 120px;
   }
-  .logos-slide {
+  .logos-slider {
     margin: 2.5rem 0;
   }
-  .logos-slide img {
+  .logos-slider img {
     width: 8rem;
     margin: 0 2rem;
   }

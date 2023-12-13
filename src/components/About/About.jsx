@@ -28,7 +28,7 @@ const About = () =>{
           initial="hidden"
           animate={inView ? 'visible' : 'hidden'}
           variants={aboutTextAnimation}
-          transition={{duration:1}}
+          transition={{duration:1, delay: .5}}
         >
             {t("about.title1")} <span>{t("about.title2")}</span>
         </motion.h3>
@@ -37,7 +37,7 @@ const About = () =>{
         initial="hidden"
         animate={inView ? 'visible' : 'hidden'}
         variants={aboutTextAnimation}
-        transition={{duration:1, delay: 1}}
+        transition={{duration:1, delay: 1.5}}
         >
         {t("about.text1")}<br></br><br></br>
         {t("about.text2")}<br></br><br></br>
@@ -50,7 +50,7 @@ const About = () =>{
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}
       variants={aboutImageAnimation}
-      transition={{duration:1, delay:1}}>
+      transition={{duration:1, delay:1.5}}>
         <img loading='lazy' src={bigFoot} alt="" className=" frase"/>
       </motion.div>
     </div>
