@@ -6,9 +6,11 @@
     transform: translateX(-100%);
   }
 }
+
 #brands{
-  scroll-margin-top: 10rem;
+  scroll-margin-top: 35rem;
 }
+
 .logos {
   overflow: hidden;
   white-space: nowrap;
@@ -56,7 +58,6 @@
 }
 .dibujo{
   padding: 2rem 3rem;
-  overflow-x: hidden;
 }
 
 @media (min-width: 420px){
@@ -100,6 +101,10 @@
   .logos:before,
   .logos:after {
     width: 250px;
+  }
+
+  #brands{
+    scroll-margin-top: 10rem;
   }
 
   .logos-slide {

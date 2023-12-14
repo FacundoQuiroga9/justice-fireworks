@@ -12,15 +12,33 @@ const Wedding = () => {
     triggerOnce: true,
   });
   const weddingTitleAnimation = {
-    hidden: {  x:-300, opacity:0},
+    hidden: {  x:100, opacity:0},
     visible: { x: 0, opacity: 1 },
+  };
+  const weddingTextAnimation = {
+    hidden: {  opacity:0},
+    visible: { opacity: 1 },
   };
   return(
     <div id='wedding' className='wedding'>
       <Carousel />
       <div className="wedding-info">
-        <h3 className="wedding-title"><span>{t("wedding.title1")}</span> {t("wedding.title2")}</h3>
-        <p className="wedding-text">{t("wedding.text")}</p>
+        <motion.h3 className="wedding-title"
+        ref={ref}
+        initial="hidden"
+        animate={inView ? 'visible' : 'hidden'}
+        variants={weddingTitleAnimation}
+        transition={{duration:1, delay:.5}}>
+          <span>{t("wedding.title1")}</span> {t("wedding.title2")}
+        </motion.h3>
+        <motion.p className="wedding-text"
+        ref={ref}
+        initial="hidden"
+        animate={inView ? 'visible' : 'hidden'}
+        variants={weddingTextAnimation}
+        transition={{duration:1, delay:1}}>
+          {t("wedding.text")}
+        </motion.p>
         <Button><a href='https://www.dallassparklers.com/' target='_blank' rel="noreferrer">DallasSparklers.com</a></Button>
       </div>
     </div>

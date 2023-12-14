@@ -3,6 +3,8 @@ import './Carousel.css'
 import wedding1 from '../../images/wedding1.jpg'
 import wedding2 from '../../images/wedding2.jpg'
 import wedding3 from '../../images/wedding3.jpg'
+import { motion } from "framer-motion"
+import { useInView } from 'react-intersection-observer';
 
 
  const Carousel = ()=> {
@@ -28,11 +30,23 @@ import wedding3 from '../../images/wedding3.jpg'
     },600)
   }
 
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+  const carouselAnimation = {
+    hidden: {  x:-300, opacity:0},
+    visible: { x: 0, opacity: 1 },
+  };
 
   return(
-    <div className='carrousel-container'>
+    <motion.div className='carrousel-container'
+    ref={ref}
+        initial="hidden"
+        animate={inView ? 'visible' : 'hidden'}
+        variants={carouselAnimation}
+        transition={{duration:1, delay:.5}}>
       <img className={`carrousel-image ${loaded ?'loaded':''}`} src={selectedImage} alt="foto de la habitacion" onLoad={()=>setLoaded(true)}/>
-    </div>
+    </motion.div>
   )
 }
 

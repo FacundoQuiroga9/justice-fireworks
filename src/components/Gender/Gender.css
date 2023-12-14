@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  scroll-margin-top: 10rem;
+  scroll-margin-top: 35rem;
 }
 .gender-title{
   color: var(--red);
@@ -31,7 +31,9 @@
 
 @media (min-width: 750px){
   #gender-reveal{
+    width: 90%;
     flex-direction: row;
+
   }
   .foto-container{
     margin: .5rem;
@@ -52,7 +54,9 @@
 @media (min-width: 1000px){
   #gender-reveal{
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
+    padding: 5rem 0;
+    scroll-margin-top: 10rem;
   }
 
   .foto-container{

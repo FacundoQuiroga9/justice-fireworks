@@ -1,9 +1,12 @@
 #wedding{
-  scroll-margin-top: 10rem;
+  scroll-margin-top: 35rem;
 }
 .wedding{
   width: 80%;
   margin: 1rem auto;
+}
+.wedding-info{
+  margin-bottom: 4rem;
 }
 .wedding-title{
   margin: 1rem 0;
@@ -11,6 +14,9 @@
   font-size: 2rem;
   padding: 0;
   font-family: 'Bungee', sans-serif;
+}
+.wedding-title > span{
+  color: var(--celeste);
 }
 .wedding-text{
   font-size: 1rem;
@@ -22,10 +28,9 @@
 }
 @media (min-width: 750px){
   .wedding{
-    width: 80%;
+    width: 90%;
     margin: 4rem auto;
     display: flex;
-    overflow: hidden;
   }
   .wedding-title{
     font-size: 2.5rem;
@@ -42,11 +47,12 @@
 }
 }
 @media (min-width: 1000px){
+  #wedding{
+    scroll-margin-top: 15rem;
+  }
   .wedding{
-    width: 90%;
+    width: 80%;
     margin: 5rem auto;
-    display: grid;
-    grid-template-columns: 40% auto;
   }
   .wedding-title{
     font-size: 6rem;

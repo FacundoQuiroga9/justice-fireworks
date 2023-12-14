@@ -20,7 +20,7 @@ const Gender = ()=>{
     visible: { x: 0, opacity: 1 },
   };
   const genderImageAnimation = {
-    hidden: {  x:300, opacity:0},
+    hidden: {  x:100, opacity:0},
     visible: { x: 0, opacity: 1 },
   };
   return (

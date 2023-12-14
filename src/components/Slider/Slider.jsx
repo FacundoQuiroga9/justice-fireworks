@@ -18,8 +18,8 @@ const Slider = () => {
   });
 
   const brandsBuildingAnimation = {
-    hidden: {  x:300, opacity:0},
-    visible: { x: 0, opacity: 1 },
+    hidden: {  opacity:0},
+    visible: { opacity: 1 },
   };
   const brandsSliderAnimation = {
     hidden: {  opacity:0 },
