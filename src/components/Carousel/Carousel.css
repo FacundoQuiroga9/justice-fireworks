@@ -30,6 +30,7 @@
 }
 @media (min-width: 1000px){
   .carrousel-container{
+    height: 30rem;
   }
 
 

@@ -16,7 +16,7 @@
 
 @media (min-width: 1000px){
   .button-container{
-    width: 12rem;
+    width: auto;
     font-size: 1.5rem;
   }
 }

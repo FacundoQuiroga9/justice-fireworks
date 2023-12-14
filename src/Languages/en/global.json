@@ -10,7 +10,7 @@
     "title1":"DYNAMITE",
     "title2":"FIREWORKS",
     "text1": "¡Welcome to Dynamite Fireworks! With a spectacular selection of over 2,000 types of fireworks, we offer the best experience to transform any occasion into an unforgettable event. ",
-    "text2": "Our owner, Steve, is the captain of the ship with over 20 years of experience in the industry. His dedication and knowledge have made Dynamite Fireworks the undisputed reference for those looking to take celebrations to the next level.",
+    "text2": "Our owner, Steve, is the captain of the ship with over 25 years of experience in the industry. His dedication and knowledge have made Dynamite Fireworks the undisputed reference for those looking to take celebrations to the next level.",
     "text3": "At Dynamite Fireworks, our team is proud to offer exceptional service to our customers. We are committed to helping you find the perfect combination of colors, shapes, and effects to make your event truly extraordinary."
   },
   "gender":{
@@ -26,6 +26,11 @@
     "phone": "PHONE",
     "call": "CALL",
     "social-media": "SOCIAL MEDIA"
+  },
+  "wedding":{
+    "title1": "WEDDING",
+    "title2": "SPARKLERS",
+    "text":"To order your wedding sparklers, please visit our affiliated website."
   },
   "footer":{
     "phone": "PHONE",

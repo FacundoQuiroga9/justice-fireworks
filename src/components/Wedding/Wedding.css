@@ -1,10 +1,9 @@
 #wedding{
   scroll-margin-top: 10rem;
 }
-.wedding-section{
+.wedding{
   width: 80%;
   margin: 1rem auto;
-  overflow: hidden;
 }
 .wedding-title{
   margin: 1rem 0;
@@ -22,22 +21,43 @@
 
 }
 @media (min-width: 750px){
-  .wedding-section{
+  .wedding{
     width: 80%;
     margin: 4rem auto;
     display: flex;
     overflow: hidden;
   }
-
+  .wedding-title{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+  }
 .wedding-info{
   width: 80%;
+  margin: 0 0 0 2rem
+}
+.wedding-text{
+  font-size: 1.5rem;
+  line-height: 1.7rem;
 }
 }
 @media (min-width: 1000px){
-  .wedding-section{
+  .wedding{
     width: 90%;
     margin: 5rem auto;
     display: grid;
     grid-template-columns: 40% auto;
   }
+  .wedding-title{
+    font-size: 6rem;
+    padding: 0;
+  }
+.wedding-info{
+  width: 80%;
+  margin: 0 0 0 2rem
+}
+.wedding-text{
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
 }
