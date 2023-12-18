@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  scroll-margin-top: 35rem;
+  scroll-margin-top: 31rem;
 }
 .gender-title{
   color: var(--red);
