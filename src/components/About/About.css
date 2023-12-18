@@ -70,16 +70,16 @@
     width: 50%;
   }
   .about-title{
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .about-text{
-    font-size: .8rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
   .steve-container{
     width: 40%;
-    height: 20rem;
+    height: 30rem;
     margin-left: 2rem;
   }
   .frase{

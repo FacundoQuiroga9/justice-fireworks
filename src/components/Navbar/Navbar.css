@@ -87,7 +87,7 @@
 .flag>img{
   width: 100%;
 }
-@media (max-width:780px){
+@media (max-width:1200px){
   .logo-button-container{
     justify-content: space-between;
     padding: 1rem 1rem;
